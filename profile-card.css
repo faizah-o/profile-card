@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body{
+    justify-content: center;
+    display: flex;
+}
+
+.content{
+    background-color: #b06957;
+    width: 700px;
+    padding: 50px 75px 50px 75px;
+}
+
+#faceless{
+    height: 350px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    object-fit: cover;
+}
+
+.identity{
+    margin-top: 28px;
+    line-height: 3px;
+    text-align: center;
+}
+
+.primary-info{
+    display: flex;
+}
+.portion-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#name{
+    font-size: 29px;
+}
+
+#username{
+    font-size: 26px;
+}
+
+.info{
+    background-color: #C2B2B3;
+}
+
+#profile-picture{
+    margin-top: 25px;
+    margin-left: 30px;
+    border-radius: 50%;
+}
+
+.social-icons{
+    filter: brightness(0) invert(1);
+    margin: 39px 25px 0px 0px;
+}
+
+p{
+    color: white;
+    font-family: lato;
+}
+
+#about{
+    font-size: 28px;
+    margin: 18px 20px 10px 20px;
+}
